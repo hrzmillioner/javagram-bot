@@ -2,7 +2,7 @@
 
 Instagram bot written in Java. Under active development.
 
-### Configuration
+## Configuration
 
 | property name | default | description  |
 | ------------- |:-------------:| -----:|
@@ -25,23 +25,28 @@ endTime=18:00
 chanceToFollow=0.05
 ```
 
-##Usage
-
-Just run:
-`java -jar javagram.jar -config config.properties`
-
-Run in background (works on: Raspberry/Linux/MacOs):
-
-`nohup java -jar javagram.jar -config config.properties &> output.log&`
+## Usage
+0. Install Java (JRE)
+1. [Download latest release](https://github.com/jpomykala/javagram-bot/releases){:target="_blank"}
+2. Unzip 
+3. Edit `config.properties`
+3. Run in terminal: `java -jar javagram.jar -config config.properties`
 
 Soon application will be working without Java installed on local computer.
 
-Like the app? :heart_eyes: [PayPal donation](https://paypal.me/jakubpomykala)
+Like the app? :heart_eyes: [PayPal donation](https://paypal.me/jakubpomykala){:target="_blank"}
+
+#### Run in background:
+This works only on Raspberry/Linux/MacOs:
+
+`nohup java -jar javagram.jar -config config.properties &> output.log&`
+
+
 
 ## Need more feature?
 Let me know by creating new issue. I develop this application in my free time just for fun. 
 
-##Feature development
+## Feature development
 - add minimal Docker image with Java installed to run application
 - Migrate to Java 11 and give ability to run application without Java installed
 - Write more test (just as good practise :) )
@@ -49,17 +54,17 @@ Let me know by creating new issue. I develop this application in my free time ju
 - Add more configuration options
 
 
-###Terms and conditions
+#### Terms and conditions
 
 - You will NOT use this API for marketing purposes (spam, botting, harassment, massive bulk messaging...).
 - We do NOT give support to anyone who wants to use this API to send spam or commit other crimes.
 - We reserve the right to block any user of this repository that does not meet these conditions.
 
-### Legal
+#### Legal
 
 This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by Instagram or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use at your own risk.
 
-###Credits
+#### Credits
 Bot uses [this Java client](https://github.com/brunocvcunha/instagram4j) as main source and it is based on this source code. 
 I decided to fork this repository and fix all main issues like 
 
