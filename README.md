@@ -26,15 +26,15 @@ chanceToFollow=0.05
 ```
 
 ## Usage
-0. [Install Java (JRE)](https://www.java.com/en/download/){:target="_blank"}
-1. [Download latest release (zip file)](https://github.com/jpomykala/javagram-bot/releases){:target="_blank"}
+0. [Install Java (JRE)](https://www.java.com/en/download/)
+1. [Download latest release (zip file)](https://github.com/jpomykala/javagram-bot/releases)
 2. Unzip 
 3. Edit `config.properties`
 4. Run in terminal: `java -jar javagram.jar -config config.properties`
 
 Soon application will be working without Java installed on local computer.
 
-Like the app? :heart_eyes: [PayPal donation](https://paypal.me/jakubpomykala){:target="_blank"}
+Like the app? :heart_eyes: [PayPal donation](https://paypal.me/jakubpomykala)
 
 #### Run in background:
 This works only on Raspberry/Linux/MacOs:
