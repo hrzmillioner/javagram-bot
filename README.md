@@ -32,7 +32,7 @@ chanceToFollow=0.05
 3. Edit `config.properties`
 4. Run in terminal: `java -jar javagram.jar -config config.properties`
 
-Soon application will be working without Java installed on local computer.
+Soon application will be working without Java installed on the local computer.
 
 Like the app? :heart_eyes: [PayPal donation](https://paypal.me/jakubpomykala)
 
@@ -41,15 +41,13 @@ This works only on Raspberry/Linux/MacOs:
 
 `nohup java -jar javagram.jar -config config.properties &> output.log&`
 
-
-
 ## Need more feature?
-Let me know by creating [new issue](https://github.com/jpomykala/javagram-bot/issues/new).
+Let me know by creating a [new issue](https://github.com/jpomykala/javagram-bot/issues/new).
 
 ## Feature development
-- add minimal Docker image with Java installed to run application
-- Migrate to Java 11 and give ability to run application without Java installed
-- Write more test (just as good practise :) )
+- Add minimal Docker image with Java installed to run the application
+- Migrate to Java 11 and give the ability to run the application without Java installed
+- Write more test (just as good practice :) )
 - Remove unused requests and functions from forked code
 - Add more configuration options
 
@@ -59,10 +57,12 @@ Let me know by creating [new issue](https://github.com/jpomykala/javagram-bot/is
 - You will NOT use this API for marketing purposes (spam, botting, harassment, massive bulk messaging...).
 - We do NOT give support to anyone who wants to use this API to send spam or commit other crimes.
 - We reserve the right to block any user of this repository that does not meet these conditions.
+[Source](https://github.com/brunocvcunha/instagram4j)
 
 #### Legal
 
 This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by Instagram or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use at your own risk.
+[Source](https://github.com/brunocvcunha/instagram4j)
 
 #### Credits
 Bot uses [this Java client](https://github.com/brunocvcunha/instagram4j) as main source and it is based on this source code. 
