@@ -1,6 +1,6 @@
 # Javagram
 
-Instagram bot written in Java. Under active development.
+Instagram bot written in Java. I develop this application in my free time just for fun. :)
 
 ## Configuration
 
@@ -44,7 +44,7 @@ This works only on Raspberry/Linux/MacOs:
 
 
 ## Need more feature?
-Let me know by creating new issue. I develop this application in my free time just for fun. 
+Let me know by creating [new issue](https://github.com/jpomykala/javagram-bot/issues/new).
 
 ## Feature development
 - add minimal Docker image with Java installed to run application
