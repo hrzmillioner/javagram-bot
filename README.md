@@ -15,7 +15,7 @@ Instagram bot written in Java. I develop this application in my free time just f
 | chanceToFollow | 0.0 | 1.0 follow user every time bot likes an image, 0.0 no chance to follow |
 
 Example property file `config.properties`
-```
+```properties
 username=your_instagram_username
 password=your_instagram_password
 likesPerDay=100
