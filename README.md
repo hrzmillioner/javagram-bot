@@ -1,8 +1,8 @@
-# Javagram
+# 📸 Javagram
 
 Instagram bot written in Java. I develop this application in my free time just for fun. :)
 
-## Configuration
+## 🛠 Configuration
 
 | property name | default | description  |
 | ------------- |:-------------:| -----:|
@@ -25,42 +25,33 @@ endTime=18:00
 chanceToFollow=0.05
 ```
 
-## Usage
-0. [Install Java (JRE)](https://www.java.com/en/download/)
-1. [Download latest release (zip file)](https://github.com/jpomykala/javagram-bot/releases)
-2. Unzip 
-3. Edit `config.properties`
-4. Run in terminal: `java -jar javagram.jar -config config.properties`
+## 🚀 Usage
+1. Download and edit `config.properties` [Download example file](https://github.com/jpomykala/javagram-bot/blob/master/config.properties)
+2. Open terminal
+3. Paste and enter: `curl -sL xxx | bash`
 
 Soon application will be working without Java installed on the local computer.
 
 Like the app? :heart_eyes: [PayPal donation](https://paypal.me/jakubpomykala)
 
-#### Run in background:
-This works only on Raspberry/Linux/MacOs:
-
-`nohup java -jar javagram.jar -config config.properties &> output.log&`
-
-## Need more feature?
+## ⚡️ Need more feature?
 Let me know by creating a [new issue](https://github.com/jpomykala/javagram-bot/issues/new).
 
 ## Feature development
-- Add minimal Docker image with Java installed to run the application
-- Migrate to Java 11 and give the ability to run the application without Java installed
-- Write more test (just as good practice :) )
-- Remove unused requests and functions from forked code
-- Add more configuration options
-- Add travis configuration
+[x] Easy run script
+[ ] Write more test (just as good practice :) )
+[ ] Remove unused requests and functions from forked code
+[ ] Add travis configuration
 
 
-#### Terms and conditions
+#### 💩 Terms and conditions
 
 - You will NOT use this API for marketing purposes (spam, botting, harassment, massive bulk messaging...).
 - We do NOT give support to anyone who wants to use this API to send spam or commit other crimes.
 - We reserve the right to block any user of this repository that does not meet these conditions.
 [Source](https://github.com/brunocvcunha/instagram4j)
 
-#### Legal
+#### 👩‍⚖️ Legal
 
 This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by Instagram or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use at your own risk.
 [Source](https://github.com/brunocvcunha/instagram4j)
