@@ -50,5 +50,5 @@ This code is in no way affiliated with, authorized, maintained, sponsored or end
 
 #### Credits
 Bot uses [this Java client](https://github.com/brunocvcunha/instagram4j) as main source and it is based on this source code. 
-I decided to fork this repository and fix all main issues like 
+I decided to fork this repository and fix all main issues and add featutres just for fun. 🤠 
 
