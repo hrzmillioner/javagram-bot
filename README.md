@@ -14,7 +14,7 @@ Instagram bot written in Java. I develop this application in my free time just f
 | endTime | 23:59 | End program at the hour:time (format: HH:mm) |
 | chanceToFollow | 0.0 | 1.0 follow user every time bot likes an image, 0.0 no chance to follow |
 
-Example property file `config.properties`
+Example property file `config.properties` [Download here](https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/config.properties)
 ```properties
 username=your_instagram_username
 password=your_instagram_password
@@ -26,10 +26,11 @@ chanceToFollow=0.05
 ```
 
 ## 🚀 Usage
-1. Download and edit `config.properties` [Download example file](https://github.com/jpomykala/javagram-bot/blob/master/config.properties)
+1. Setup your `config.properties` file, [download here](https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/config.properties)
 2. Open terminal
-3. Paste and enter: `curl -sL xxx | bash`
-4. Done! Like the app? :heart_eyes: [PayPal donation 💸](https://paypal.me/jakubpomykala)
+3. Run installation: `curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/install.sh | bash`
+4. Start Javagram: `curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/javagram.sh | bash`
+5. Done! Like the app? :heart_eyes: [PayPal donation 💸](https://paypal.me/jakubpomykala)
 
 ## ⚡️ Need more features?
 Let me know by creating a [new issue](https://github.com/jpomykala/javagram-bot/issues/new).
