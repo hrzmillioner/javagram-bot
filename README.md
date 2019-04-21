@@ -1,6 +1,6 @@
 ![Cover](https://i.imgur.com/alE9OWm.png)
 
-Instagram bot written in Java. I develop this application in my free time just for fun. :)
+Instagram bot written in Java for fun!
 
 ## 🚀 Usage
 1. Setup your `config.properties` file, [download here](https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/config.properties)
@@ -37,6 +37,11 @@ startTime=06:00
 endTime=18:00
 chanceToFollow=0.05
 ```
+
+## Troubleshooting
+> I got email from Instagram that someone uses my account on Samsung phone. 
+
+It's okey, this is Javagram bot :)
 
 ## ⚡️ Need more features?
 Let me know by creating a [new issue](https://github.com/jpomykala/javagram-bot/issues/new).
