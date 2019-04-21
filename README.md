@@ -2,6 +2,19 @@
 
 Instagram bot written in Java. I develop this application in my free time just for fun. :)
 
+## 🚀 Usage
+1. Setup your `config.properties` file, [download here](https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/config.properties)
+2. Open terminal
+3. Run installation: 
+```bash
+curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/install.sh | bash
+```
+4. Start Javagram: 
+```bash
+curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/javagram.sh | bash
+```
+5. Done! Like the app? :heart_eyes: [PayPal donation 💸](https://paypal.me/jakubpomykala)
+
 ## 🛠 Configuration
 
 | property name | default | description  |
@@ -24,19 +37,6 @@ startTime=06:00
 endTime=18:00
 chanceToFollow=0.05
 ```
-
-## 🚀 Usage
-1. Setup your `config.properties` file, [download here](https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/config.properties)
-2. Open terminal
-3. Run installation: 
-```bash
-curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/install.sh | bash
-```
-4. Start Javagram: 
-```bash
-curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/javagram.sh | bash
-```
-5. Done! Like the app? :heart_eyes: [PayPal donation 💸](https://paypal.me/jakubpomykala)
 
 ## ⚡️ Need more features?
 Let me know by creating a [new issue](https://github.com/jpomykala/javagram-bot/issues/new).
