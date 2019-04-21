@@ -29,10 +29,7 @@ chanceToFollow=0.05
 1. Download and edit `config.properties` [Download example file](https://github.com/jpomykala/javagram-bot/blob/master/config.properties)
 2. Open terminal
 3. Paste and enter: `curl -sL xxx | bash`
-
-Soon application will be working without Java installed on the local computer.
-
-Like the app? :heart_eyes: [PayPal donation](https://paypal.me/jakubpomykala)
+4. Done! Like the app? :heart_eyes: [PayPal donation 💸](https://paypal.me/jakubpomykala)
 
 ## ⚡️ Need more features?
 Let me know by creating a [new issue](https://github.com/jpomykala/javagram-bot/issues/new).
