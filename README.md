@@ -33,7 +33,7 @@ chanceToFollow=0.05
 curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/install.sh | bash
 ```
 4. Start Javagram: 
-```
+```bash
 curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/javagram.sh | bash
 ```
 5. Done! Like the app? :heart_eyes: [PayPal donation 💸](https://paypal.me/jakubpomykala)
