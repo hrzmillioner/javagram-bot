@@ -28,8 +28,14 @@ chanceToFollow=0.05
 ## 🚀 Usage
 1. Setup your `config.properties` file, [download here](https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/config.properties)
 2. Open terminal
-3. Run installation: `curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/install.sh | bash`
-4. Start Javagram: `curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/javagram.sh | bash`
+3. Run installation: 
+```bash
+curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/install.sh | bash
+```
+4. Start Javagram: 
+```
+curl -sL https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/javagram.sh | bash
+```
 5. Done! Like the app? :heart_eyes: [PayPal donation 💸](https://paypal.me/jakubpomykala)
 
 ## ⚡️ Need more features?
