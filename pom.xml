@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.jpomykala.javagram</groupId>
     <artifactId>javagram</artifactId>
-    <version>1.0</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
     <name>javagram</name>
     <description>javagram</description>
@@ -94,25 +94,31 @@
 
     </dependencies>
     <build>
-        <finalName>javagram-without-deps-${version}</finalName>
+        <finalName>javagram-${version}</finalName>
         <plugins>
+
             <plugin>
+
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
+                <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
                     <execution>
+                        <phase>package</phase>
                         <goals>
-                            <goal>shade</goal>
+                            <goal>single</goal>
                         </goals>
                         <configuration>
-                            <finalName>javagram-${version}</finalName>
-                            <shadedArtifactAttached>true</shadedArtifactAttached>
-                            <transformers>
-                                <transformer implementation=
-                                                     "org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>me.jpomykala.javagram.Main</mainClass>
-                                </transformer>
-                            </transformers>
+                            <appendAssemblyId>false</appendAssemblyId>
+                            <archive>
+                                <manifest>
+                                    <mainClass>
+                                        me.jpomykala.javagram.Main
+                                    </mainClass>
+                                </manifest>
+                            </archive>
+                            <descriptorRefs>
+                                <descriptorRef>jar-with-dependencies</descriptorRef>
+                            </descriptorRefs>
                         </configuration>
                     </execution>
                 </executions>
