@@ -1,6 +1,6 @@
 ![Cover](https://i.imgur.com/alE9OWm.png)
 
-Instagram bot written in Java for fun!
+Instagram bot written in Java for fun! 🤪
 
 ## 🚀 Usage
 1. Setup your `config.properties` file, [download here](https://github.com/jpomykala/javagram-bot/releases/download/1.0.2/config.properties)
