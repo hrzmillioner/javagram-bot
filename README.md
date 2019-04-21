@@ -1,4 +1,4 @@
-# 📸 Javagram
+![Cover](https://i.imgur.com/alE9OWm.png)
 
 Instagram bot written in Java. I develop this application in my free time just for fun. :)
 
