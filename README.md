@@ -34,7 +34,7 @@ Soon application will be working without Java installed on the local computer.
 
 Like the app? :heart_eyes: [PayPal donation](https://paypal.me/jakubpomykala)
 
-## ⚡️ Need more feature?
+## ⚡️ Need more features?
 Let me know by creating a [new issue](https://github.com/jpomykala/javagram-bot/issues/new).
 
 ## Feature development
