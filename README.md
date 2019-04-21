@@ -38,10 +38,10 @@ Like the app? :heart_eyes: [PayPal donation](https://paypal.me/jakubpomykala)
 Let me know by creating a [new issue](https://github.com/jpomykala/javagram-bot/issues/new).
 
 ## Feature development
-[x] Easy run script
-[ ] Write more test (just as good practice :) )
-[ ] Remove unused requests and functions from forked code
-[ ] Add travis configuration
+- [x] Easy run script
+- [ ] Write more test (just as good practice :) )
+- [ ] Remove unused requests and functions from forked code
+- [ ] Add travis configuration
 
 
 #### 💩 Terms and conditions
